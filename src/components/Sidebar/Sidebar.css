@@ -1,0 +1,47 @@
+/* Sidebar Container */
+.sidebar-container {
+    width: 60px; /* Closed width */
+    height: 100vh;
+    background-color: #688f4e; /* Background color */
+    display: flex;
+    padding: 32px 16px; /* Adjust padding to fit closed state */
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-right: 2px solid #2b463c; /* Solid line on the right side using primary color */
+    transition: width 0.3s ease; /* Smooth transition for width change */
+    overflow: hidden;
+  }
+  
+  /* Expanded sidebar */
+  .sidebar-container.open {
+    width: 200px; /* Open width */
+    padding: 32px;
+  }
+  
+  /* Profile Button */
+  .profile-button {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    border: 1px solid #688f4e; /* Border with secondary color */
+    background-color: #81d182; /* Background with accent color */
+    color: #2b463c; /* Text with primary color */
+    font-size: 24px; /* Font size for the "P" */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar-toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar-toggle-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease; /* Add animation for smooth transition */
+  }
+  
