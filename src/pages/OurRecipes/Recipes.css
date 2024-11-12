@@ -1,0 +1,121 @@
+/* Main container for recipe list */
+.recipe-list-container {
+  display: flex;
+  height: 100vh;
+}
+
+.recipe-list-content {
+  padding: 20px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.title {
+  color: #2B463C;
+  margin-bottom: 20px;
+}
+
+/* Styling for the search bar */
+.search-bar {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: 1px solid #2B463C;
+  background-color: #F4F1E9;
+  color: #2B463C;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.search-bar:focus {
+  border-color: #688F4E;
+  outline: none;
+  box-shadow: 0 0 5px #688F4E;
+}
+
+/* Styling for the select dropdown */
+.select-dropdown {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: 1px solid #2B463C;
+  background-color: #F4F1E9;
+  color: #2B463C;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.select-dropdown:focus {
+  border-color: #688F4E;
+  outline: none;
+  box-shadow: 0 0 5px #688F4E;
+}
+
+/* Recipe grid layout */
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Styling for individual recipe items */
+.recipe-item {
+  background-color: #F4F1E9;
+  border: 1px solid #2B463C;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.recipe-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for recipe images */
+.recipe-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* Styling for recipe titles */
+.recipe-title {
+  font-size: 16px;
+  color: #2B463C;
+  padding: 10px;
+}
+
+/* Button styling for "View Recipe" */
+.view-recipe-button {
+  background-color: #688F4E;
+  color: #F4F1E9;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+}
+
+.view-recipe-link {
+  color: #F4F1E9;
+  text-decoration: none;
+}
+
+.view-recipe-button:hover {
+  background-color: #81D182;
+}
+
+/* Styling for the "No recipes added yet" message */
+.no-recipes-message {
+  font-size: 20px;
+  font-weight: bold;
+  color: #688F4E;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
