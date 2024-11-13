@@ -10,7 +10,10 @@ import MyRecipes from "./pages/MyRecipes/MyRecipes";
 
 const App: React.FC = () => {
   return (
-    <Router>
+    // Add basename to BrowserRouter for routing in a subdirectory
+    <Router basename="/bite-score-app">
+      {" "}
+      {/* Replace "bite-score-app" with your repo name */}
       <div style={{ background: "#" }}>
         <Routes>
           <Route path="/login" element={<Login />} />
