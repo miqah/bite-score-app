@@ -1,7 +1,9 @@
 import React from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
+import { useAuthRedirect } from "../hooks/useAuth";
 
 const Home: React.FC = () => {
+  useAuthRedirect()
   return (
     <div
       style={{
