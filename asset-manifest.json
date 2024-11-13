@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/miqah/bite-score-app/static/css/main.2f47fd19.css",
+    "main.js": "/miqah/bite-score-app/static/js/main.8176be9b.js",
+    "static/media/happy-customer.png": "/miqah/bite-score-app/static/media/happy-customer.738f46ef2476795b1687.png",
+    "static/media/logo.png": "/miqah/bite-score-app/static/media/logo.8fee97a2e0edecbc677b.png",
+    "index.html": "/miqah/bite-score-app/index.html",
+    "static/media/leave-icon.svg": "/miqah/bite-score-app/static/media/leave-icon.d02e4e7c479a9fa026e9294d193c7c56.svg",
+    "static/media/arrow-right.svg": "/miqah/bite-score-app/static/media/arrow-right.749cca41edeb3191c9f5277f2149c09b.svg",
+    "static/media/arrow-left.svg": "/miqah/bite-score-app/static/media/arrow-left.49e469429c859c29e386f5686e44cb54.svg",
+    "main.2f47fd19.css.map": "/miqah/bite-score-app/static/css/main.2f47fd19.css.map",
+    "main.8176be9b.js.map": "/miqah/bite-score-app/static/js/main.8176be9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f47fd19.css",
+    "static/js/main.8176be9b.js"
+  ]
+}
