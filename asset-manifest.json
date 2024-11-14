@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bite-score-app/static/css/main.2f47fd19.css",
-    "main.js": "/bite-score-app/static/js/main.8f6049ee.js",
+    "main.js": "/bite-score-app/static/js/main.75860727.js",
     "static/media/happy-customer.png": "/bite-score-app/static/media/happy-customer.738f46ef2476795b1687.png",
     "static/media/logo.png": "/bite-score-app/static/media/logo.8fee97a2e0edecbc677b.png",
     "index.html": "/bite-score-app/index.html",
@@ -9,10 +9,10 @@
     "static/media/arrow-right.svg": "/bite-score-app/static/media/arrow-right.749cca41edeb3191c9f5277f2149c09b.svg",
     "static/media/arrow-left.svg": "/bite-score-app/static/media/arrow-left.49e469429c859c29e386f5686e44cb54.svg",
     "main.2f47fd19.css.map": "/bite-score-app/static/css/main.2f47fd19.css.map",
-    "main.8f6049ee.js.map": "/bite-score-app/static/js/main.8f6049ee.js.map"
+    "main.75860727.js.map": "/bite-score-app/static/js/main.75860727.js.map"
   },
   "entrypoints": [
     "static/css/main.2f47fd19.css",
-    "static/js/main.8f6049ee.js"
+    "static/js/main.75860727.js"
   ]
 }
